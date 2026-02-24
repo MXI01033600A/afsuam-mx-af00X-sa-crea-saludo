@@ -11,9 +11,9 @@
     </parent>
 
     <groupId>com.mx.sura_afore.af00X</groupId>
-    <artifactId>afsuam-mx-af00X-sa-crea-saludo</artifactId>
+    <artifactId>afsuam-mx-af00X-safre-sa-crea-saludo</artifactId>
     <version>1.0.0</version>
-    <name>afsuam-mx-af00X-sa-crea-saludo</name>
+    <name>afsuam-mx-af00X-safre-sa-crea-saludo</name>
     <description>System API de Crea Saludo basado en los estandares Radon y Diamante</description>
 
     <properties>
@@ -28,6 +28,7 @@
         <jackson-nullable.version>0.2.6</jackson-nullable.version>
         <openapi.package.api>com.mx.sura_afore.af00X.microservicio.interfaces.controller</openapi.package.api>
         <openapi.package.model>com.mx.sura_afore.af00X.microservicio.domain.model</openapi.package.model>
+        <api.type>SISTEMA</api.type>
     </properties>
 
     <dependencies>
@@ -105,7 +106,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <inputSpec>${project.basedir}/src/main/resources/${project.artifactId}/sa-crea-saludo.yaml</inputSpec>
+                            <inputSpec>${project.basedir}/src/main/resources/afsuam-mx-af00X-sa-crea-saludo/v1-crea-saludo.yaml</inputSpec>
                             <generatorName>spring</generatorName>
                             <generateSupportingFiles>true</generateSupportingFiles>
                             <strictSpec>true</strictSpec>
