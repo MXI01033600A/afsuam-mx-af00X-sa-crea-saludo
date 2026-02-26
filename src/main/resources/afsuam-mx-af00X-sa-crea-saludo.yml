@@ -1,6 +1,0 @@
-server:
-  port: 8081
-
-spring:
-  application:
-    name: afsuam-mx-af00X-sa-crea-saludo

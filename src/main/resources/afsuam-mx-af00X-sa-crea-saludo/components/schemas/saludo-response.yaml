@@ -1,5 +1,0 @@
-type: object
-properties:
-  saludo:
-    type: string
-    example: "Hola, Juan"

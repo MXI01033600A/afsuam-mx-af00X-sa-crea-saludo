@@ -9,5 +9,5 @@ tags:
   - name: Saludo
     description: Operaciones relacionadas con el saludo
 paths:
-  /api/v1/saludo/{name}:
-    $ref: "paths/v1-crea-saludo.yaml"
+  /v1/saludo/{name}:
+    $ref: "paths/v1_crea_saludo.yaml"
