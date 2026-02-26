@@ -1,0 +1,13 @@
+openapi: 3.0.3
+info:
+  title: System API - Crea Saludo
+  description: Microservicio que genera un saludo personalizado
+  version: 1.0.0
+servers:
+  - url: http://localhost:8081/api/v1
+tags:
+  - name: Saludo
+    description: Operaciones relacionadas con el saludo
+paths:
+  /api/v1/saludo/{name}:
+    $ref: "paths/v1-crea-saludo.yaml"
